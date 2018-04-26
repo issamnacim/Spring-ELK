@@ -13,6 +13,9 @@ This simple example demonstrates how easy you can enable quite powerful and adva
 ## ELK Configuration
 download logstash version : 6.2.2
 create a new file logstash-config.conf and put :
+
+
+```ruby
 input {
   file {
     path => "/PATH TO PROJECT/elk-example-spring-boot/elk-example.log.json"
@@ -34,3 +37,10 @@ output {
   }
   stdout { codec => rubydebug }
 }
+```
+run bin/logstash -f logstash-simple.conf
+download elasticsearch version : 6.2.2 and run it : ./elasticsearch
+donwload kibana version : 6.2.2 and run it : ./kibana
+now we can search our message :
+
+![alt text](https://github.com/issamnacim/wiki/blob/master/images/elastics.jpg "ELK")
