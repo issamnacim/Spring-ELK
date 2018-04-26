@@ -43,4 +43,4 @@ download elasticsearch version : 6.2.2 and run it : ./elasticsearch
 donwload kibana version : 6.2.2 and run it : ./kibana
 now we can search our message :
 
-![alt text](https://github.com/issamnacim/wiki/blob/master/images/elastics.jpg "ELK")
+![alt text](https://github.com/issamnacim/wiki/blob/master/images/kibana.png "ELK")
