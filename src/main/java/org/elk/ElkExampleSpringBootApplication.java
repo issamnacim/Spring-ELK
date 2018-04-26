@@ -1,4 +1,4 @@
-package com.example.howtodoinjava.elkexamplespringboot;
+package org.elk;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

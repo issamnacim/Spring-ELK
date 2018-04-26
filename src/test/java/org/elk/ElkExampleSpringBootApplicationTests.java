@@ -1,4 +1,4 @@
-package com.example.howtodoinjava.elkexamplespringboot;
+package org.elk;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

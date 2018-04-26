@@ -111,7 +111,7 @@ ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 
-2018-04-20 23:59:08.725 ERROR 2494 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@7a69b07] to prepare test instance [com.example.howtodoinjava.elkexamplespringboot.ElkExampleSpringBootApplicationTests@6392827e]
+2018-04-20 23:59:08.725 ERROR 2494 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@7a69b07] to prepare test instance [ElkExampleSpringBootApplicationTests@6392827e]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
@@ -308,7 +308,7 @@ ERROR in ch.qos.logback.core.joran.spi.Interpreter@70:30 - no applicable action 
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 
-2018-04-21 00:05:49.913 ERROR 2511 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@7bab3f1a] to prepare test instance [com.example.howtodoinjava.elkexamplespringboot.ElkExampleSpringBootApplicationTests@6e15fe2]
+2018-04-21 00:05:49.913 ERROR 2511 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@7bab3f1a] to prepare test instance [ElkExampleSpringBootApplicationTests@6e15fe2]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
@@ -554,7 +554,7 @@ ERROR in ch.qos.logback.core.joran.spi.Interpreter@70:30 - no applicable action 
 2018-04-25 23:29:29.658  INFO 3787 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 2018-04-25 23:29:29.659  INFO 3787 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2018-04-25 23:29:32.193  INFO 3787 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f17e30d: startup date [Wed Apr 25 23:29:23 WEST 2018]; root of context hierarchy
-2018-04-25 23:29:32.434  INFO 3787 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ElkWelcome]}" onto public java.lang.String com.example.howtodoinjava.elkexamplespringboot.ELKResources.helloWorld()
+2018-04-25 23:29:32.434  INFO 3787 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ElkWelcome]}" onto public java.lang.String ELKResources.helloWorld()
 2018-04-25 23:29:32.443  INFO 3787 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 2018-04-25 23:29:32.445  INFO 3787 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 2018-04-25 23:29:32.559  INFO 3787 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -602,3 +602,5 @@ ERROR in ch.qos.logback.core.joran.spi.Interpreter@70:30 - no applicable action 
 2018-04-25 23:30:26.717  INFO 3787 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 51 ms
 2018-04-25 23:30:26.804  INFO 3787 --- [http-nio-8080-exec-1] c.e.h.elkexamplespringboot.ELKResources  : Welcome to ELK with Spring Boot by Nacim Issam
 2018-04-25 23:32:39.134  INFO 3787 --- [http-nio-8080-exec-5] c.e.h.elkexamplespringboot.ELKResources  : Welcome to ELK with Spring Boot by Nacim Issam
+2018-04-25 23:50:14.865  INFO 3787 --- [http-nio-8080-exec-10] c.e.h.elkexamplespringboot.ELKResources  : Welcome to ELK with Spring Boot by Nacim Issam
+2018-04-25 23:51:18.345  INFO 3787 --- [http-nio-8080-exec-4] c.e.h.elkexamplespringboot.ELKResources  : Welcome to ELK with Spring Boot by Nacim Issam
