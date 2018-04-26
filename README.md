@@ -9,4 +9,4 @@ This simple example demonstrates how easy you can enable quite powerful and adva
 3. **Kibana** gives the visualization of data through a UI.
 
 ## ELK Stack Architecture
-![alt text](https://github.com/kuldeepsingh99/microservice-elk/blob/master/images/elastics.jpg "ELK")
+![alt text](https://github.com/issamnacim/wiki/blob/master/images/elastics.jpg "ELK")
